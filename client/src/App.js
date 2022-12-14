@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import images from './api-mock.json';
-import './app.css'
+import './App.css'
 const App = () => {
   const [imageList, setImageList] = useState(images.resources);
   return (
