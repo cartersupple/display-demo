@@ -12,6 +12,6 @@ app.use(json());
 app.get('/photos', async (req, res)=> {
 return res.send({message :'yo'});
 });
-const PORT = 3000;
+const PORT = 4000;
 
-app.listen(PORT, console.log('Its lit on port ${3000}'));
+app.listen(PORT, console.log('Its lit on port ${PORT}')); 
